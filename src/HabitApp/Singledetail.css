@@ -1,0 +1,56 @@
+.habit-details {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.habit-image {
+  flex: 0 0 200px;
+  margin-right: 20px;
+}
+
+.habit-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.habit-info {
+  flex: 1;
+}
+
+.habit-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.habit-info p {
+  margin-bottom: 5px;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #337ab7;
+}
+
+.delete-button {
+  background-color: #d9534f;
+}
+
+.archive-button {
+  background-color: #5cb85c;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
